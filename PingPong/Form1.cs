@@ -16,7 +16,7 @@ namespace PingPong
             InitializeComponent();
 
             serialPort1 = new SerialPort();
-            serialPort1.PortName = "COM4";   // change if needed
+            serialPort1.PortName = "COM5";   // change if needed
             serialPort1.BaudRate = 9600;
             serialPort1.DataReceived += SerialPort1_DataReceived;
 
